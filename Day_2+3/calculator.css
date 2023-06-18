@@ -1,0 +1,22 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.calculator button {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.calculator input {
+  grid-column: 1 / -1;
+  text-align: right;
+  font-size: 24px;
+}
+
+#history {
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css" />
+    <script src="weather.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b25957ae4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="weather">
+      <!-- <img src="/Day_4/picture/moring.jpg" alt="" id="background_pic" /> -->
+      <div class="search_bar_pos">
+        <div class="search_bar">
+          <form class="search_posi">
+            <input
+              type="search"
+              placeholder="Location"
+              required
+              id="find_locate"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="time_dis"><div class="time"></div></div>
+
+      <div class="temp_display">
+        <div class="temp_box"><div class="temp"></div></div>
+      </div>
+      <div class="locate_dis"><div class="locate"></div></div>
+      <div class="wind_spd_dis">
+        <div class="wind_spd">
+          <div class="wind_spd_icon">
+            <i class="fa-solid fa-wind"></i>
+          </div>
+          <div class="wind_spd_info"></div>
+        </div>
+      </div>
+      <div class="wind_direc_dis">
+        <div class="wind_direc">
+          <div class="wind_direc_icon">
+            <i class="fa-regular fa-compass"></i>
+          </div>
+          <div class="wind_direc_info"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
